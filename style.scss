@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+
+//variables
+$color-darkgrey: #313234;
+$color-white: #fff;
+$color-lightgrey: #2d3436;
+$color-blue: #00cec9;
+$color-grey: #ccc;
+$color-black: #000;
+$color-copy: #636e72;
+
+$fonts: 'Open Sans', sans-serif;
+
+
+body {
+  margin: 0;
+  font-family: $fonts;
+}
+
