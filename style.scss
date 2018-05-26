@@ -38,16 +38,9 @@ body {
 	background-color: $color-belize;
 	@extend .box-shadow;
 	p {
-		text-align: left;
+		@extend .fonts;
 		color: $color-purple;
 		font-weight: 600;
-		line-height: 23px;
-		padding: 25px 100px 25px 100px;
-		margin: 0 auto;
-	}
-	p:first-child {
-		margin-top: 0;
-		padding-top: 25px;
 	}
 }
 .small-container {
