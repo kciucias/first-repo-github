@@ -7,6 +7,7 @@ $color-belize: #2980b9;
 $fonts: 'Open Sans', sans-serif;
 $color-purple: #30336b;
 
+
 //extends
 .fonts {
 	display: flex;
@@ -33,18 +34,20 @@ body {
   margin: 0 auto;
 }
 
-.chorus {
-	font-weight: 600;
-	color: $color-purple;
-}
-
 .text {
 	background-color: $color-belize;
-	padding: 25px 170px;
-	margin-bottom: 100px;
 	@extend .box-shadow;
 	p {
-		@extend .fonts;
+		text-align: left;
+		color: $color-purple;
+		font-weight: 600;
+		line-height: 23px;
+		padding: 25px 100px 25px 100px;
+		margin: 0 auto;
+	}
+	p:first-child {
+		margin-top: 0;
+		padding-top: 25px;
 	}
 }
 .small-container {
