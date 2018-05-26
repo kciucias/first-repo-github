@@ -1,19 +1,78 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
-
 //variables
-$color-darkgrey: #313234;
 $color-white: #fff;
 $color-lightgrey: #2d3436;
-$color-blue: #00cec9;
 $color-grey: #ccc;
-$color-black: #000;
-$color-copy: #636e72;
-
+$color-midnight: #2c3e50;
+$color-belize: #2980b9;
 $fonts: 'Open Sans', sans-serif;
+$color-purple: #30336b;
+
+//extends
+.fonts {
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	font-weight: 600;
+	line-height: 23px;
+}
+
+.box-shadow {
+	box-shadow: 2px 2px 30px #444;
+}
 
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  margin: 0 auto;
   font-family: $fonts;
+  background-color: $color-grey;
 }
+
+.container {
+  width: 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chorus {
+	font-weight: 600;
+	color: $color-purple;
+}
+
+.text {
+	background-color: $color-belize;
+	padding: 25px 170px;
+	margin-bottom: 100px;
+	@extend .box-shadow;
+	p {
+		@extend .fonts;
+	}
+}
+.small-container {
+	 background-color: $color-midnight;
+	 @extend .box-shadow;
+	 h1 {
+	 	@extend .fonts; 
+		font-size: 48px;
+		font-weight: bold;
+		margin-top: 100px;
+		padding-top: 50px;
+		color: $color-white;
+	}
+
+	h2 {
+		@extend .fonts;
+		font-size: 32px;
+		color: $color-grey;
+	}
+
+	h3 {
+		@extend .fonts;
+		padding-bottom: 25px;
+	}
+}
+
+
+	
+
 
