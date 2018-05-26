@@ -12,7 +12,6 @@ $color-purple: #30336b;
 	display: flex;
 	justify-content: center;
 	text-align: justify;
-	font-weight: 600;
 	line-height: 23px;
 }
 
@@ -58,17 +57,20 @@ body {
 		margin-top: 100px;
 		padding-top: 50px;
 		color: $color-white;
+		text-shadow: 2px 2px 7px #000;
 	}
 
 	h2 {
 		@extend .fonts;
 		font-size: 32px;
 		color: $color-grey;
+		text-shadow: 2px 2px 5px #000;
 	}
 
 	h3 {
 		@extend .fonts;
 		padding-bottom: 25px;
+		text-shadow: 1px 1px 2px #000;
 	}
 }
 
