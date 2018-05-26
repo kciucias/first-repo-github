@@ -33,11 +33,6 @@ body {
   margin: 0 auto;
 }
 
-.chorus {
-	font-weight: 600;
-	color: $color-purple;
-}
-
 .text {
 	background-color: $color-belize;
 	padding: 25px 170px;
@@ -45,6 +40,8 @@ body {
 	@extend .box-shadow;
 	p {
 		@extend .fonts;
+		color: $color-purple;
+		font-weight: 600;
 	}
 }
 .small-container {
